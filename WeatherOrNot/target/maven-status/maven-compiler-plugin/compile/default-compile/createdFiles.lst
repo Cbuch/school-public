@@ -1,0 +1,17 @@
+WeatherDataDB.class
+weatherapp\WeatherAPIService.class
+weatherapp\ClientUI.class
+Notifications.class
+NotificationService.class
+UserDB.class
+DataProcessing.class
+weatherapp\ClientController.class
+weatherapp\Main.class
+weatherapp\WeatherService.class
+UserPreferences.class
+HTTPClient.class
+weatherapp\EncodingTest.class
+ServerAPILayer.class
+SettingsPage.class
+weatherapp\WeatherController.class
+weatherapp\WeatherApp.class

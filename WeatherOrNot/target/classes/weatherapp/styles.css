@@ -1,0 +1,61 @@
+/* Font face for Cascadia */
+@font-face {
+    font-family: 'Cascadia';
+    src: url('CascadiaCode.ttf'); /* Reference the font file */
+}
+
+.root {
+    -fx-background-color: #2e2e2e; /* Dark grey background */
+    -fx-text-fill: #ffffff; /* Bright white text */
+    -fx-font-family: 'Cascadia'; /* Cascadia font */
+    -fx-background-radius: 10; /* Rounded edges */
+}
+
+.custom-title-bar {
+    -fx-background-color: #2e2e2e;
+    -fx-padding: 5px;
+    -fx-alignment: center-left;
+}
+
+.header {
+    -fx-font-size: 24px;
+    -fx-text-fill: #ffffff;
+    -fx-padding: 5px; /* Adjust padding to center the text */
+}
+
+.window-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+    -fx-padding: 0 5px;
+}
+
+.button {
+    -fx-background-color: #4b4b4b; /* Slightly lighter grey for buttons */
+    -fx-text-fill: #ffffff; /* Bright white text */
+    -fx-border-radius: 10; /* Rounded edges */
+    -fx-background-radius: 10; /* Rounded edges */
+    -fx-padding: 5px 10px; /* Smaller buttons */
+    -fx-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color: #866cc7; /* Change hover color */
+}
+
+.text-field {
+    -fx-background-color: #4b4b4b; /* Slightly lighter grey for text fields */
+    -fx-text-fill: #ffffff; /* Bright white text */
+    -fx-border-radius: 10; /* Rounded edges */
+    -fx-background-radius: 10; /* Rounded edges */
+    -fx-padding: 5px;
+    -fx-font-size: 16px; /* Larger text in text fields */
+    -fx-border-color: #866cc7; /* Change border color */
+    -fx-alignment: center;
+}
+
+.label {
+    -fx-font-size: 16px; /* Larger output text */
+    -fx-text-fill: #ffffff; /* Bright white text */
+    -fx-font-family: 'Cascadia'; /* Cascadia font */
+}
