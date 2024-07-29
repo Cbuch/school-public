@@ -1,0 +1,44 @@
+
+### Project Report
+
+# WeatherOrNot Weather App Project Report
+
+## Overview
+WeatherOrNot was created for SWE 6623 Software Engineering class.
+It is a JavaFX-based weather application that provides real-time weather information.
+Users can enter their city and state to get the current sky conditions and temperature.
+is a JavaFX-based application designed to provide users with current weather information such as current sky conditions and temperature.
+The project was designed to follow a client-server architecture, separating the user interface from data management and processing.
+
+## Project Difficulties and Solutions
+### 1. Issues with Visual Studio Code
+- Problem: Initially, the project was developed using Visual Studio Code.
+ However, there were numerous issues with configuring the JavaFX SDK and managing dependencies.
+- Solution: The decision was made to switch to Apache Maven for dependency management and IntelliJ IDEA for development.
+ This switch streamlined the development process and resolved the SDK configuration issues.
+
+### 2. Encoding Issues
+- Problem: The application faced character encoding issues that causing incorrect display of special characters.
+- Solution: File encoding was not set so had to ensuring UTF-8 encoding was used
+ throughout the project by configuring Maven and the application to use UTF-8 resolved these issues.
+
+## Missed Design Requirements
+Due to time constraints, the following design requirements were not implemented:
+1. Main Dashboard: The main dashboard was supposed to display current weather, hourly, and daily forecasts.
+2. Settings Page: A settings page for users to set their location and preferences was planned but not completed.
+3. Notifications: The application was intended to provide notifications for severe weather conditions, not implemented.
+
+These requirements were missed due to a great amount of time being spent
+resolving configuration issues with Visual Studio Code.
+The switch to IntelliJ IDEA and Maven, although beneficial, also consumed additional time.
+
+## Docker Integration
+To make the application easily deployable, it was planned to containerize it using Docker.
+The app could not be deployed on Docker due to ongoing issues with JavaFX dependencies and graphics rendering pipelines.
+After several attempts to configure the Dockerfile and Maven settings, the application kept encountering errors such as
+missing JavaFX runtime components and failure to initialize the QuantumRenderer. These problems were mainly due to the
+complexity of setting up a fully funcitonal JavaFX enviroment within Docker, especially making sure the native
+libraries needed for JavaFX's graphical operations were available and compatible. Because of these issues,
+the app could not run in the Docker container, so alternative deployment methods had to be considered.
+
+

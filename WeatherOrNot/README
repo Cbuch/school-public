@@ -1,0 +1,44 @@
+# WeatherOrNot Weather App
+
+## Introduction
+WeatherOrNot was created for SWE 6623 Software Engineering class
+It is a JavaFX-based weather application that provides real-time weather information.
+Users can enter their city and state to get the current sky conditions and temperature.
+
+## Prerequisites
+- Java 17 or higher
+- Apache Maven 3.6.0 or higher
+
+## Project Structure:
+- src/main/java/weatherapp: Java source files.
+- src/main/resources/weatherapp: FXML and CSS files.
+- src/test/java: test source files.
+- pom.xml: Maven configuration file.
+
+### Project Directory Structure
+Ensure that your project directory is set up as follows:
+C:\Projects\WeatherOrNot
+
+## Dependencies
+- org.json:20240303
+- org.openjfx:javafx-controls:17.0.2
+- org.openjfx:javafx-fxml:17.0.2
+
+### Clone the Repository
+```bash
+git clone <https://github.com/Cbuch/school-public.git> C:\Projects\WeatherOrNot
+cd C:\Projects\WeatherOrNot
+
+## How to Run
+
+### Running with Maven
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Compile the project:
+    with bash
+    mvn clean compile
+4. Run the project:
+    with bash
+    mvn javafx:run -Dfile.encoding=UTF-8
+
+
