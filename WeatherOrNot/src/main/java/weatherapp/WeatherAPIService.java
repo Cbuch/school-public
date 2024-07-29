@@ -10,7 +10,7 @@ import java.net.URLEncoder;
 
 public class WeatherAPIService {
 
-    private static final String API_KEY = "9c9685fbfc29db9503c15ac6c6b82d5b"; // Replace with your actual API key
+    private static final String API_KEY = "******secret*****"; // Replace with your actual API key
 
     public String getWeather(String city, String state) {
         try {
